@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background: #eee;
+  justify-content: center;
+}
+
+header, main, footer {
+  font-size: 1.2rem;
+  border-top: 1px solid #666;
+  padding: 4rem 0;
+}
+
+nav, article, section {
+  width: 65rem;
+  margin: 0 auto;
+}
+
+h2, p, a {
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 98vh;
+  padding-top: 2rem;
+}
+
+header nav:first-of-type ul li {
+  display: inline-block;
+}
+
+header nav:first-of-type ul li {
+  padding-right: 1rem;
+}
+
+header article:first-of-type h1,
+header nav:first-of-type ul li a {
+  color: #659d89;
+}
+
+header nav:first-of-type ul li a:hover {
+  text-decoration: underline;
+}
+
+header article:first-of-type h1 + p {
+  width: 50%;
+  text-align: start;
+}
+
+header article:first-of-type h1 {
+  font-weight: bolder;
+  font-size: 3.3em;
+  padding-top: 14rem;
+}
+
+header article:first-of-type p {
+  font-size: 2.8em;
+  padding-top: 0.5rem;
+}
+
+header nav:nth-of-type(2) {
+  padding: 5rem 0;
+}
+
+header nav:nth-of-type(2) ul {
+  text-align: end;
+  line-height: 2rem;
+}
+
+header nav:nth-of-type(2) ul li a img {
+  width: 2rem;
+}
+
+header article:nth-of-type(2) p {
+  padding-top: 6rem;
+}
+
+main section article img:hover {
+  box-shadow: 0 0 2rem #666;
+}
+
+main section article:first-of-type {
+  padding: 5rem 0;
+}
+
+main section:first-of-type p {
+  padding-top: 1rem;
+}
+
+main section:first-of-type article {
+  width: 90%;
+  text-align: justify;
+  text-align-last: justify;
+  margin: 0 5%;
+}
+
+main section:first-of-type article img {
+  width: 30%;
+  margin-bottom: 4rem;
+}
+
+main section:nth-of-type(2) {
+  width: 100vw;
+  border-top: 1px solid #666;
+}
+
+main section:last-of-type h2 {
+  padding-top: 4rem;
+}
+
+main section:last-of-type article {
+  width: 95%;
+  padding-bottom: 6rem;
+  margin: 0 5%;
+}
+
+main section:last-of-type article:nth-of-type(even) {
+  text-align: end;
+}
+
+main section:last-of-type article img,
+main section:last-of-type article div {
+  width: 65%;
+}
+
+main section:last-of-type article:nth-of-type(odd) div,
+main section:last-of-type article:nth-of-type(even) div,
+footer {
+  text-align: center;
+}
+
+main section:last-of-type article:nth-of-type(even) div {
+  margin-left: auto;
+}
+
+main section:last-of-type article div a {
+  line-height: 3rem;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+main section:last-of-type article div p {
+  color: #666;
+  line-height: 2rem;
+}
+
+footer {
+  padding-bottom: 1rem;
+}
+
+footer p {
+  margin-top: 8rem;
+}
+
+footer h4 {
+  margin-top: 3rem;
+}
